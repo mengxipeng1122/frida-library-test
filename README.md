@@ -17,6 +17,7 @@ To compile the project, switch to the my-frida-project/ directory and execute th
 ```bash
 cd my-frida-project/
 npm install
+npm install ../my-library/my-library-1.0.0.tgz
 make
 ```
 

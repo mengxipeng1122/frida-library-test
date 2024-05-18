@@ -1,0 +1,20 @@
+{
+  "name": "my-frida-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "frida-compile src -o _agent.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "frida-compile": "^10.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "my-library": "file:../my-library/my-library-1.0.0.tgz"
+  }
+}

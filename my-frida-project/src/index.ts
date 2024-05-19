@@ -1,5 +1,5 @@
 
-import { helloWorld } from '../node_modules/my-library/src/index'
+import { helloWorld } from 'my-library'
 
 console.log(" test for frida");
 

@@ -1,7 +1,6 @@
 {
   "name": "my-library",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "sourceType": "module",
   "types": "dist/index.d.ts",
@@ -13,9 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
   },
-  "dependencies": {
-    "my-library": "file:my-library-1.0.0.tgz"
-  }
+  "description": ""
 }

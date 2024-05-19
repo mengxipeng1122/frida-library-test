@@ -2,8 +2,9 @@
   "name": "my-frida-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type":"module",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
   "scripts": {
     "watch": "frida-compile src -o _agent.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +19,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "my-library": "file:../my-library/my-library-1.0.0.tgz"
+    "my-library": "file:../my-library/my-library-1.0.0.tgz",
+    "ts-frida": "file:../../../ts-frida/ts-frida-1.0.0.tgz",
+    "typescript": "^5.4.5"
   }
 }

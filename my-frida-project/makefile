@@ -1,4 +1,4 @@
 
 
 all:
-	./node_modules/frida-compile/bin/compile.js -o _agent.js src/index.ts
+	npx frida-compile -o _agent.js src/index.ts -c

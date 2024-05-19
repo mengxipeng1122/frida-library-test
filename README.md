@@ -23,5 +23,3 @@ make
 
 This will output a JavaScript file at `my-frida-project/_agent.js`.
 
-# Note
-It is crucial to employ frida-compile version 10, as opposed to the latest version, for this process.

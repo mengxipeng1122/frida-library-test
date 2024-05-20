@@ -3,11 +3,10 @@
 This repository demonstrates the utilization of a library within a frida-compile project.
 
 ## Library Compilation
-To compile the library, navigate to the my-frida-project directory and execute the following commands:
+To compile the library, navigate to the my-library directory and execute the following commands:
 ```bash
-cd my-frida-project
-npm run build
-npm pack
+cd my-library
+make
 ```
 
 These commands will generate a package file located at `my-library/my-library-1.0.0.tgz`.
@@ -17,7 +16,7 @@ To compile the project, switch to the my-frida-project/ directory and execute th
 ```bash
 cd my-frida-project/
 npm install
-npm install ../my-library/my-library-1.0.0.tgz
+npm install ../my-library
 make
 ```
 

@@ -1,4 +1,2 @@
-export function helloWorld() {
-  return 'Hello, world!';
-}
+export * from "./utils.ts";
 

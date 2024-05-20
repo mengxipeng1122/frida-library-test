@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "my-library": "file:../my-library/my-library-1.0.0.tgz",
+    "my-library": "file:../my-library",
     "ts-frida": "file:../../../ts-frida/ts-frida-1.0.0.tgz",
     "typescript": "^5.4.5"
   }
